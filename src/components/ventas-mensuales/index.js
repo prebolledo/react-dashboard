@@ -9,14 +9,14 @@ function VentasMensuales(){
     const [ventas, setVentas] = useState([]);
     const [ventasFiltradas, setVentasFiltradas] = useState([]);
 
-    if(ventas.length === 0){
+    useEffect(() => {
         ventanMes((ventas)=>{
             setVentas(ventas);
             setVentasFiltradas(ventas);
         },(error)=>{
             console.log(error);
         });
-    }
+    },[setVentas,setVentasFiltradas]);
 
     useEffect(() => {
 
