@@ -1,0 +1,20 @@
+.Filtros{
+    margin:2em;
+    background:#daf0ee;
+}
+
+.Filtros select{
+    font-size: 1em;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.Filtros h1{
+    padding:0.5em;
+    background: #a1cfca;    
+}
+
+.Filtros .Contenedor{
+    margin: 0.5em;
+    padding-bottom: 0.5em;
+}

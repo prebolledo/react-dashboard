@@ -11,7 +11,7 @@ function View(props){
                 {ventas.map((venta, index) =>{
                     return (
                         <li key={index}>
-                            <div>Mes: <span>{venta.mes.nombre}</span></div>
+                            <div className="Mes">{venta.mes.nombre}</div>
                             <ol>
                                 {venta.productos.map((producto, indexProducto) =>{
                                     return(

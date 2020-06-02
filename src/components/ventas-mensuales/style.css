@@ -1,5 +1,32 @@
 .ventasMensuales{
     margin:2em;
+    background: #8e9c9a;    
+}
+
+.ventasMensuales h1{
+    padding:0.5em;
+    background: #a1cfca;    
+}
+
+.ventasMensuales ul{
+    margin:1em;
+    padding: 0;
+    padding-bottom: 0.5em;
+    
+}
+
+.ventasMensuales ul > li{
+    list-style-type: none;
+    margin: 0.5em 0;
+    background:#daf0ee;
     padding:1em;
-    border:2px solid #aaa;
+}
+
+.ventasMensuales .Mes{
+    font-weight: bold;
+}
+
+.ventasMensuales ol > li{
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
 }
